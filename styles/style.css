@@ -1,0 +1,13 @@
+header{
+    background-color:#264653;
+
+}
+.btn{
+    background-color: #E76F51;
+}
+span{
+    color: #E76F51;
+}
+.bike-img{
+    filter: grayscale(100%);
+}
