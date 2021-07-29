@@ -14,6 +14,7 @@
   </head>
 
   <body>
+    <!-- Header Section -->
       <header>
         <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -43,13 +44,15 @@
           </div>
         </div>
       </nav>
-        <section class="container">
-            <div class="d-flex align-items-center py-5">
-                <div class="text-white">
-                    <p>Computer-controlled digital transistorized with electronic advance</p>
-                    <h2 class="fs-1 fw-bolder">Honda CBR 300R</h2>
-                    <p class="w-75">
-                        In the city, the CBR300R returns an insane fuel economy and has a pretty good range. Thanks to its 71 mpg rating, the 3.4-gallon fuel tank affords more than 220 miles of range. So, it may not fare well on the highway, but it'll get plenty of mileage around town.</p>
+      <!-- Modal Section -->
+      <section class="container mx-auto">
+        <div class="row d-flex  align-items-center pt-4 pb-5">
+          <div class="col-lg-7  col-md-6  text-light p-3">
+            <p>Computer-controlled digital transistorized with electronic advance</p>
+            <h2 class="fs-1 fw-bolder">Honda CBR 300R</h2>
+            <p class="w-100">
+                In the city, the CBR300R returns an insane fuel economy and has a pretty good range. Thanks to its 71 mpg rating, the 3.4-gallon fuel tank affords more than 220 miles of range. So, it may not fare well on the highway, but it'll get plenty of mileage around town.
+              </p>
                           <!-- Button  modal -->
                     <button type="button" class="btn text-white px-5" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
                         Purchase
@@ -71,7 +74,6 @@
                                            checked>
                                     <label for="yes">Yes</label>
                                   </div>
-                                  
                                   <div>
                                     <input type="radio" id="no" name="Name" value="no">
                                     <label for="no">No</label>
@@ -85,14 +87,15 @@
                         </div>
                       </div>
                 </div>
-                <div>
-                    <img src="./images/header-bike.png" alt="">
+                <div class="header-image col-lg-5 col-md-6 ">
+                  <img class="w-100" src="images/header-bike.png" alt="">
                 </div>
             </div>
         </section>
       </header>
 
       <main>
+        <!-- Featured -->
         <section class="container my-5">
             <!-- Featured Title -->
             <div class="text-center py-5">
@@ -100,21 +103,15 @@
                 <span>Best bike collection</span>
             </div>
             <!-- Bike Photo Section -->
-            <div class="row align-items-center">
-                <div class="col mx-5">
-                    <img class="img-fluid bike-img" src="./images/feature-bike.jpg" alt="">
-                </div>
-                <div class="col mx-5">
-                    <img class="img-fluid " src="./images/feature-bike.jpg" alt="">
-                </div>
-                <div class="col mx-5">
-                    <img class="img-fluid bike-img" src="./images/feature-bike.jpg" alt="">
-                </div>
-              </div>
+            <div class="row row-cols-lg-4 row-cols-1 d-flex justify-content-around size">
+              <img class="my-4 bike-img" src="images/feature-bike.jpg" alt="">
+              <img class="my-4" src="images/feature-bike.jpg" alt="">
+              <img class="my-4 bike-img" src="images/feature-bike.jpg" alt="">
+            </div>
         </section>
          <!-- Happy Client Section -->
          <section class="container">
-          <h1 class="fs-1 fw-bolder text-center py-5">Happy <span>Clients Says</span></h1>
+          <h1 class="fs-1 fw-bolder text-center py-5">Happy <span> Clients Says</span></h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card h-100 py-5 px-5">
@@ -178,15 +175,57 @@
             </div>
           </div>
       </section>
-        <!-- FAQ Section -->
+      <!-- Latest News -->
+      <section class="container py-5">
+        <h1 class="fw-bold text-center my-5">Latest <span> News</span> </h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 pb-3">
+              <img src="./images/bike-1.png" class="card-img-top" alt="...">
+              <div class="card-body ">
+                <h5 class="card-title text-dark fw-bold">Ducati XDIAVEL S-73</h5>
+                <p class="card-text">The XDiavel differs from the standard Diavel primarily through more laid-back ergonomics, which are configurable in many ways for riders of varying sizes. For 2019, the XDiavel comes in a new Matte Liquid Concrete Gray.</p>
+              </div>
+              <button class="btn w-50 mx-3">
+                Read More
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 pb-3">
+              <img src="./images/bike-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-dark fw-bold">Motorcycles & Scooters</h5>
+                <p class="card-text">The most common brand associated with a scooter is the Vespa, which was developed after World War II in Italy and has since been exported worldwide.With an engine that large, some may think it should be classified as a motorcycle, </p>
+              </div>
+              <button class="btn w-50 mx-3">
+                Read More
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 pb-3">
+              <img src="./images/bike-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-dark fw-bold">2021 Honda CBR500R</h5>
+                <p class="card-text">The engine in the CBR1000RR-R makes 217.5 PS and 113 Nm . On the other hand, the power and torque of YZF R1 stand at 200 PS and 112.4 Nm respectively.Out of 20 user reviews, YZF R1 scores 4.7 whereas the Honda CBR1000RR-</p>
+              </div>
+              <button class="btn w-50 mx-3 ">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ Section -->
         <section class="container my-3">
             <div class="faq-title text-center py-5">
                 <h2 class="fs-1 fw-bolder">Frequently Asked <span class="fs-1 fw-bolder">Questions</span></h2> 
             </div>
             <div class="card mb-3 border-0 py-5">
                 <div class="row g-0 ">
-                  <div class="col-md-6 ">
-                    <img src="./images/faq.png" class="img-fluid rounded-start w-75" alt="...">
+                  <div class="col-lg-6 col-12 ">
+                    <img class="img-fluid" src="images/faq.png" alt="">
                   </div>
                   <div class="col-md-6">
                     <div class="accordion" id="accordionExample">
