@@ -4,10 +4,24 @@ header{
 }
 .btn{
     background-color: #E76F51;
+    color: white;
 }
 span{
     color: #E76F51;
 }
 .bike-img{
     filter: grayscale(100%);
+}
+.card-title{
+    color: #23A6F0;
+}
+.fa-star{
+    color: #E77C40;
+    padding-bottom: 20px;
+}
+.nav{
+    background-color: #264653;
+}
+.nav-link{
+    color: white;
 }
