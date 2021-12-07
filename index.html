@@ -1,339 +1,486 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Font Awesome Kit -->
-    <script src="https://kit.fontawesome.com/6f74121c05.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Panda Project</title>
-  </head>
 
-  <body>
-    <!-- Header Section -->
-      <header id="home">
-        <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+  <!-- Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/6f74121c05.js"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet"
+    href="styles/style.css">
+  <title>Panda Project</title>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"
+          id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+            <li class="nav-item">
+              <a class="nav-link active"
+                aria-current="page"
+                href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="#bikes">Bikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="#clients">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="#faq">Faq</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div>
+            <button class="btn d-flex">
+              Login
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Modal Section -->
+    <section class="container mx-auto">
+      <div class="row d-flex  align-items-center pt-4 pb-5">
+        <div class="col-lg-7  col-md-6  text-light p-3">
+          <p>Computer-controlled digital transistorized with electronic advance</p>
+          <h2 class="fs-1 fw-bolder">Honda CBR 300R</h2>
+          <p class="w-100">
+            In the city, the CBR300R returns an insane fuel economy and has a pretty good range. Thanks to its 71 mpg
+            rating, the 3.4-gallon fuel tank affords more than 220 miles of range. So, it may not fare well on the
+            highway, but it'll get plenty of mileage around town.
+          </p>
+          <!-- Button  modal -->
+          <button type="button"
+            class="btn text-white px-5"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Purchase
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#bikes">Bikes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#news">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#clients">clients</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#faq">Faq</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-            <div>
-              <button class="btn d-flex">
-                Login
-              </button>
+          <!-- Modal -->
+          <div class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content text-dark">
+                <div class="modal-header">
+                  <h5 class="modal-title"
+                    id="exampleModalLabel">Get Personalized Offers On Honda CBR 300R
+                  </h5>
+                  <button type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Generally, high mileage on a motorcycle is anywhere from 20,000 to 50,000 miles. For sport bikes, the
+                  high mileage number will be on the low end (usually around 25,000), while cruisers and touring bikes
+                  typically become high mileage in the 40,000- to the 50,000-mile range.
+                  Do you want to purchase this Bike?
+                  <div>
+                    <input type="radio"
+                      id="yes"
+                      name="Name"
+                      value="yes"
+                      checked>
+                    <label for="yes">Yes</label>
+                  </div>
+                  <div>
+                    <input type="radio"
+                      id="no"
+                      name="Name"
+                      value="no">
+                    <label for="no">No</label>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button"
+                    class="btn text-white"
+                    data-bs-dismiss="modal">Close</button>
+                  <button type="button"
+                    class="btn text-white">Save changes</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </nav>
-      <!-- Modal Section -->
-      <section class="container mx-auto">
-        <div class="row d-flex  align-items-center pt-4 pb-5">
-          <div class="col-lg-7  col-md-6  text-light p-3">
-            <p>Computer-controlled digital transistorized with electronic advance</p>
-            <h2 class="fs-1 fw-bolder">Honda CBR 300R</h2>
-            <p class="w-100">
-                In the city, the CBR300R returns an insane fuel economy and has a pretty good range. Thanks to its 71 mpg rating, the 3.4-gallon fuel tank affords more than 220 miles of range. So, it may not fare well on the highway, but it'll get plenty of mileage around town.
-              </p>
-                          <!-- Button  modal -->
-                    <button type="button" class="btn text-white px-5" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
-                        Purchase
-                    </button>
-                      <!-- Modal -->
-                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content text-dark">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Get Personalized Offers On Honda CBR 300R
-                            </h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                Generally, high mileage on a motorcycle is anywhere from 20,000 to 50,000 miles. For sport bikes, the high mileage number will be on the low end (usually around 25,000), while cruisers and touring bikes typically become high mileage in the 40,000- to the 50,000-mile range. 
-                                Do you want to purchase this Bike?
-                                <div>
-                                    <input type="radio" id="yes" name="Name" value="yes"
-                                           checked>
-                                    <label for="yes">Yes</label>
-                                  </div>
-                                  <div>
-                                    <input type="radio" id="no" name="Name" value="no">
-                                    <label for="no">No</label>
-                                  </div>
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn text-white" data-bs-dismiss="modal">Close</button>
-                              <button type="button" class="btn text-white">Save changes</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                <div class="header-image col-lg-5 col-md-6 ">
-                  <img class="w-100" src="images/header-bike.png" alt="">
-                </div>
-            </div>
-        </section>
-      </header>
+        <div class="header-image col-lg-5 col-md-6 ">
+          <img class="w-100"
+            src="images/header-bike.png"
+            alt="">
+        </div>
+      </div>
+    </section>
+  </header>
 
-      <main>
-        <!-- Featured Section -->
-        <section class="container my-5" id="bikes">
-            <!-- Featured Title -->
-            <div class="text-center py-5">
-                <h1 class="fs-1 fw-bolder">Featured Bikes 2021</h1>
-                <span>Best bike collection</span>
+  <main>
+    <!-- Featured Section -->
+    <section class="container my-5"
+      id="bikes">
+      <!-- Featured Title -->
+      <div class="text-center py-5">
+        <h1 class="fs-1 fw-bolder">Featured Bikes 2021</h1>
+        <span>Best bike collection</span>
+      </div>
+      <!-- Bike Photo Section -->
+      <div class="row row-cols-lg-4 row-cols-1 d-flex justify-content-around size">
+        <img class="my-4 bike-img"
+          src="images/feature-bike.jpg"
+          alt="">
+        <img class="my-4"
+          src="images/feature-bike.jpg"
+          alt="">
+        <img class="my-4 bike-img"
+          src="images/feature-bike.jpg"
+          alt="">
+      </div>
+    </section>
+    <!-- Latest News -->
+    <section class="container py-5"
+      id="news">
+      <h1 class="fw-bold text-center my-5">Latest <span> News</span> </h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 pb-3">
+            <img src="./images/bike-1.png"
+              class="card-img-top"
+              alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-dark fw-bold">Ducati XDIAVEL S-73</h5>
+              <p class="card-text">The XDiavel differs from the standard Diavel primarily through more laid-back
+                ergonomics, which are configurable in many ways for riders of varying sizes. For 2019, the XDiavel comes
+                in a new Matte Liquid Concrete Gray.</p>
             </div>
-            <!-- Bike Photo Section -->
-            <div class="row row-cols-lg-4 row-cols-1 d-flex justify-content-around size">
-              <img class="my-4 bike-img" src="images/feature-bike.jpg" alt="">
-              <img class="my-4" src="images/feature-bike.jpg" alt="">
-              <img class="my-4 bike-img" src="images/feature-bike.jpg" alt="">
-            </div>
-        </section>
-        <!-- Latest News -->
-      <section class="container py-5" id="news">
-        <h1 class="fw-bold text-center my-5">Latest <span> News</span> </h1>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-100 pb-3">
-              <img src="./images/bike-1.png" class="card-img-top" alt="...">
-              <div class="card-body ">
-                <h5 class="card-title text-dark fw-bold">Ducati XDIAVEL S-73</h5>
-                <p class="card-text">The XDiavel differs from the standard Diavel primarily through more laid-back ergonomics, which are configurable in many ways for riders of varying sizes. For 2019, the XDiavel comes in a new Matte Liquid Concrete Gray.</p>
-              </div>
-              <button class="btn w-50 mx-3">
-                Read More
-              </button>
-            </div>
+            <button class="btn w-50 mx-3">
+              Read More
+            </button>
           </div>
-          <div class="col">
-            <div class="card h-100 pb-3">
-              <img src="./images/bike-2.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-dark fw-bold">Motorcycles & Scooters</h5>
-                <p class="card-text">The most common brand associated with a scooter is the Vespa, which was developed after World War II in Italy and has since been exported worldwide.With an engine that large, some may think it should be classified as a motorcycle, </p>
-              </div>
-              <button class="btn w-50 mx-3">
-                Read More
-              </button>
+        </div>
+        <div class="col">
+          <div class="card h-100 pb-3">
+            <img src="./images/bike-2.png"
+              class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-dark fw-bold">Motorcycles & Scooters</h5>
+              <p class="card-text">The most common brand associated with a scooter is the Vespa, which was developed
+                after World War II in Italy and has since been exported worldwide.With an engine that large, some may
+                think it should be classified as a motorcycle, </p>
             </div>
+            <button class="btn w-50 mx-3">
+              Read More
+            </button>
           </div>
-          <div class="col">
-            <div class="card h-100 pb-3">
-              <img src="./images/bike-3.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-dark fw-bold">2021 Honda CBR500R</h5>
-                <p class="card-text">The engine in the CBR1000RR-R makes 217.5 PS and 113 Nm . On the other hand, the power and torque of YZF R1 stand at 200 PS and 112.4 Nm respectively.Out of 20 user reviews, YZF R1 scores 4.7 whereas the Honda CBR1000RR-</p>
-              </div>
-              <button class="btn w-50 mx-3 ">
-                Read More
-              </button>
+        </div>
+        <div class="col">
+          <div class="card h-100 pb-3">
+            <img src="./images/bike-3.png"
+              class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-dark fw-bold">2021 Honda CBR500R</h5>
+              <p class="card-text">The engine in the CBR1000RR-R makes 217.5 PS and 113 Nm . On the other hand, the
+                power and torque of YZF R1 stand at 200 PS and 112.4 Nm respectively.Out of 20 user reviews, YZF R1
+                scores 4.7 whereas the Honda CBR1000RR-</p>
+            </div>
+            <button class="btn w-50 mx-3 ">
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Happy Client Section -->
+    <section class="container"
+      id="clients">
+      <h1 class="fs-1 fw-bolder text-center py-5">Happy <span> Clients Says</span></h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 py-5 px-5">
+            <div class="img-container text-center">
+              <img src="./images/user-1.png"
+                class="card-img-top w-50 "
+                alt="...">
+            </div>
+            <div class="card-body text-center ">
+              <p class="card-text">Slate helps you see how
+                many more days you need
+                to work to reach your financial
+                goal for the month and year.</p>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <h5 class="card-title"> <span class="card-title py-2">Regina Miles</span> </h5>
+              <h5 class="fw-bold">Teacher</h5>
             </div>
           </div>
         </div>
-      </section>
-         <!-- Happy Client Section -->
-         <section class="container" id="clients">
-          <h1 class="fs-1 fw-bolder text-center py-5">Happy <span> Clients Says</span></h1>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100 py-5 px-5">
-                <div class="img-container text-center">
-                  <img src="./images/user-1.png" class="card-img-top w-50 " alt="...">
-                </div>
-                <div class="card-body text-center ">
-                  <p class="card-text">Slate helps you see how 
-                    many more days you need 
-                    to work to reach your financial 
-                    goal for the month and year.</p>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                  <h5 class="card-title"> <span class="card-title py-2">Regina Miles</span> </h5>
-                  <h5 class="fw-bold">Teacher</h5>
-                </div>
-              </div>
+        <div class="col">
+          <div class="card h-100 py-5 px-5">
+            <div class="img-container text-center">
+              <img src="./images/user-2.png"
+                class="card-img-top w-50 "
+                alt="...">
             </div>
-            <div class="col">
-              <div class="card h-100 py-5 px-5">
-                <div class="img-container text-center">
-                  <img src="./images/user-2.png" class="card-img-top w-50 " alt="...">
-                </div>
-                <div class="card-body text-center ">
-                  <p class="card-text">Slate helps you see how 
-                    many more days you need 
-                    to work to reach your financial 
-                    goal for the month and year.</p>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                  <h5 class="card-title"> <span class="card-title py-2">James Mike</span> </h5>
-                  <h5 class="fw-bold">Banker</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 py-5 px-5">
-                <div class="img-container text-center">
-                  <img src="./images/user-3.jpg" class="card-img-top w-50 " alt="...">
-                </div>
-                <div class="card-body text-center ">
-                  <p class="card-text">Slate helps you see how 
-                    many more days you need 
-                    to work to reach your financial 
-                    goal for the month and year.</p>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                  <h5 class="card-title"> <span class="card-title py-2">John Michael</span> </h5>
-                  <h5 class="fw-bold">Professor</h5>
-                </div>
-              </div>
+            <div class="card-body text-center ">
+              <p class="card-text">Slate helps you see how
+                many more days you need
+                to work to reach your financial
+                goal for the month and year.</p>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <h5 class="card-title"> <span class="card-title py-2">James Mike</span> </h5>
+              <h5 class="fw-bold">Banker</h5>
             </div>
           </div>
-      </section>
-      
-      <!-- FAQ Section -->
-        <section class="container my-3" id="faq">
-            <div class="faq-title text-center py-5">
-                <h2 class="fs-1 fw-bolder">Frequently Asked <span class="fs-1 fw-bolder">Questions</span></h2> 
+        </div>
+        <div class="col">
+          <div class="card h-100 py-5 px-5">
+            <div class="img-container text-center">
+              <img src="./images/user-3.jpg"
+                class="card-img-top w-50 "
+                alt="...">
             </div>
-            <div class="card mb-3 border-0 py-5">
-                <div class="row g-0 ">
-                  <div class="col-lg-6 col-12 ">
-                    <img class="img-fluid" src="images/faq.png" alt="">
-                  </div>
-                  <div class="col-md-6">
-                    <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What are the most important things I should
-                            know about riding a bike?
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            How can I tell if my helmet is old and I need a 
-                            new one?
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">Bear in mind that if the helmet did its job most people would tell you that they did not even hit their head, or did not hit their head that hard. And the thin shells on most helmets now tend to hide any dents in the foam
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            My bike has been in storage is it safe to ride?
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">The bottom line: Leaving your bike outside for a day or two won't do major damage. You may see signs of rust after a week of neglect. After one month in bad conditions, your beloved bike parts will start to degrade.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What rules should I follow when riding my bike?                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          Ride on the right in the same direction as other vehicles. Go with the flow – not against it. Obey All Traffic Laws. A bicycle is a vehicle and you're a driver
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            <div class="card-body text-center ">
+              <p class="card-text">Slate helps you see how
+                many more days you need
+                to work to reach your financial
+                goal for the month and year.</p>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <h5 class="card-title"> <span class="card-title py-2">John Michael</span> </h5>
+              <h5 class="fw-bold">Professor</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="container my-3"
+      id="faq">
+      <div class="faq-title text-center py-5">
+        <h2 class="fs-1 fw-bolder">Frequently Asked <span class="fs-1 fw-bolder">Questions</span></h2>
+      </div>
+      <div class="card mb-3 border-0 py-5">
+        <div class="row g-0 ">
+          <div class="col-lg-6 col-12 ">
+            <img class="img-fluid"
+              src="images/faq.png"
+              alt="">
+          </div>
+          <div class="col-md-6">
+            <div class="accordion"
+              id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header"
+                  id="headingOne">
+                  <button class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne">
+                    What are the most important things I should
+                    know about riding a bike?
+                  </button>
+                </h2>
+                <div id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in
+                    the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused
+                    and legally compliant bike rider.Get in the mindset of “driving” your bike—not just “riding” your
+                    bike. This will help you be a more focused and legally compliant bike rider.
                   </div>
                 </div>
               </div>
-        </section>
-        <!-- Contact section -->
-       <section id="contact" class="container ">
-         <h1 class="fw-bold text-center my-5">Contact <span>Us</span></h1>
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
-          </div>
-          <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Password</label>
-            <input type="password" class="form-control" id="inputPassword4">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress2" class="form-label">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-          </div>
-          <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
+              <div class="accordion-item">
+                <h2 class="accordion-header"
+                  id="headingTwo">
+                  <button class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo">
+                    How can I tell if my helmet is old and I need a
+                    new one?
+                  </button>
+                </h2>
+                <div id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">Bear in mind that if the helmet did its job most people would tell you
+                    that they did not even hit their head, or did not hit their head that hard. And the thin shells on
+                    most helmets now tend to hide any dents in the foam
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header"
+                  id="headingThree">
+                  <button class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree">
+                    My bike has been in storage is it safe to ride?
+                  </button>
+                </h2>
+                <div id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">The bottom line: Leaving your bike outside for a day or two won't do major
+                    damage. You may see signs of rust after a week of neglect. After one month in bad conditions, your
+                    beloved bike parts will start to degrade.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header"
+                  id="headingThree">
+                  <button class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree">
+                    What rules should I follow when riding my bike? </button>
+                </h2>
+                <div id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Ride on the right in the same direction as other vehicles. Go with the flow – not against it. Obey
+                    All Traffic Laws. A bicycle is a vehicle and you're a driver
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <section id="contact"
+      class="container ">
+      <h1 class="fw-bold text-center my-5">Contact <span>Us</span></h1>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4"
+            class="form-label">Email</label>
+          <input type="email"
+            class="form-control"
+            id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4"
+            class="form-label">Password</label>
+          <input type="password"
+            class="form-control"
+            id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress"
+            class="form-label">Address</label>
+          <input type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2"
+            class="form-label">Address 2</label>
+          <input type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity"
+            class="form-label">City</label>
+          <input type="text"
+            class="form-control"
+            id="inputCity">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input"
+              type="checkbox"
+              id="gridCheck">
+            <label class="form-check-label"
+              for="gridCheck">
+              Check me out
+            </label>
           </div>
-        </form>
-       </section>
-      </main>
+        </div>
+        <div class="col-12">
+          <button type="submit"
+            class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+    </section>
+  </main>
 
-      <footer>
+  <footer>
 
-      </footer>
-     
+  </footer>
 
-    <!--  Bootstrap Bundle JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  </body>
+  <!--  Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
